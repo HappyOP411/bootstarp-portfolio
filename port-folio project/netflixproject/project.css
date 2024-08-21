@@ -1,0 +1,80 @@
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+}
+.main{
+    height: 600px;
+    width: 450px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+.main>input::placeholder{
+    color: rgb(219, 212, 212);
+    padding-left: 10px;
+}
+.main-1{
+    margin-left: 60px;
+    margin-top: 40px;
+    color: white;
+}
+.box-1{
+    height: 40px;
+    width: 300px;
+    margin-left: 60px;
+    background-color: gray;
+    color: white;
+}
+
+.box-2{
+    height: 40px;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: gray;
+}
+.btn-1{
+    height: 45px;
+    width: 308px;
+    margin-left: 60px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+h2{
+
+    color: white;
+/* 
+    padding-bottom: 200px; */
+    padding-left: 150px;
+    font-size: 1rem;
+}
+.box-3{
+
+
+margin-left:100px;
+
+
+
+}
+h3{
+margin-left:20px ;
+padding-bottom: 100px;
+    color: white;
+    display:inline-block ;
+}
+h4{
+
+    color: rgb(155, 151, 151);
+    display:inline-block ;
+    padding-top: 20px;
+}
+span{
+color: white;
+
+display: inline-block;
+
+}

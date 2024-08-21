@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.back-banner{
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg') no-repeat center center/cover;
+    border-image: fill 0 radial-gradient(#0001,#000);
+    width: auto;
+    height:615px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.header{
+    width: 70%;
+    margin: auto;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin:0;
+    padding: 0;
+}
+.form-section{
+    height: 800px;
+    width: 500px;
+    background-color:rgba(0, 0, 0, 0.918) ;
+    margin: auto;
+    z-index: 1;
+    padding: 100px;
+}
+.form-subsection{
+    height: auto;
+    width: 250px;
+    margin: auto;
+}
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mailbox{
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mailbox::placeholder{
+    color: white;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.btn1:hover{
+    background-color: brown;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.para1{
+    color: silver;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    background-color: rgba(120, 120, 120, 0.438);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.btn2:hover{
+    background-color:  rgba(192, 192, 192, 0.479);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.para2{
+    /* font: bold; */
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para2:hover{
+    border-bottom: 1px solid silver;
+}
+.para3{
+    margin-left: 10px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.para4{
+    margin-top: 10px;
+    color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para5{
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.para5:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.para6{
+    font-size: small;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: silver;
+    
+}
+.para7{
+    color: blue;
+}
+.para7:hover{
+    border-bottom: 1px solid blue;      
+    cursor: pointer;
+}
+.Question{
+    color: silver;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.section{
+    margin-top: 15px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.section1{
+    margin-top: 15px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.section2{
+    margin-top: 15px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.section3{
+    margin-top: 15px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.section4{
+    margin-top: 15px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.section5{
+    margin-top: 15px;
+    position: relative;
+    right: 47px;
+    color: silver;
+    border-bottom:1px solid silver ;
+}
+.last-section2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 44%;
+    
+}
+select{
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    border-radius: 5px;
+
+}
+.lang-section{
+    height: 200px;
+    width: auto;
+
+}
+.sub-section:hover{
+    cursor: pointer;
+}
+.sub-section1:hover{
+    cursor: pointer;
+}
+.sub-section2:hover{
+    cursor: pointer;
+}
+.sub-section3:hover{
+    cursor: pointer;
+}
+.sub-section4:hover{
+    cursor: pointer;
+}
+.sub-section5:hover{
+    cursor: pointer;
+}
